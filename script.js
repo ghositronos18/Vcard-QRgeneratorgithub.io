@@ -133,7 +133,6 @@ function updatePreviewAndQR(data) {
 
         <div class="card-header">
           <div class="logo">${company || 'COMPANY'}</div>
-          <div class="slogan">Professional Excellence</div>
         </div>
         
         
@@ -243,3 +242,4 @@ resetBtn.onclick = () => {
   location.reload();
 
 }
+
