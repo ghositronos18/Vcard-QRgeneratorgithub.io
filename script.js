@@ -172,11 +172,6 @@ function updatePreviewAndQR(data) {
         </div>
         
         <div class="divider"></div>
-        
-        <div class="footer">
-            <span style="font-size: 12px;">Quality Service</span>
-          </div>
-        </div>
   `;
 
   qr.foreground = qrColorInput.value;
@@ -242,4 +237,5 @@ resetBtn.onclick = () => {
   location.reload();
 
 }
+
 
